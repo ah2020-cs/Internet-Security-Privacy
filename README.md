@@ -1,6 +1,6 @@
 # Internet-Security-Privacy
 
-During this course we worked on the Project 1 and 2 were assigned based on the following Repo.
+During this course we complemented projects based on the following Repo.
 
 https://github.com/paoga87/r2py-assignment-docs/blob/master/EducationalAssignments/ABStoragePartOne.md
 https://github.com/paoga87/r2py-assignment-docs/blob/master/EducationalAssignments/ABStoragePartTwo.md
