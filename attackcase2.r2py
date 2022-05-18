@@ -1,0 +1,53 @@
+
+if "testfileA.txt.a" in listfiles():
+    removefile("testfileA.txt.a")
+if "testfileA.txt.b" in listfiles():
+    removefile("testfileA.txt.b")
+
+if "testfileB.txt.a" in listfiles():
+    removefile("testfileB.txt.a")
+if "testfileB.txt.b" in listfiles():
+    removefile("testfileB.txt.b")
+
+if "testfileC.txt.a" in listfiles():
+    removefile("testfileC.txt.a")
+if "testfileC.txt.b" in listfiles():
+    removefile("testfileC.txt.b")
+
+if "testfileD.txt.a" in listfiles():
+    removefile("testfileD.txt.a")
+if "testfileD.txt.b" in listfiles():
+    removefile("testfileD.txt.b")
+
+def write1():
+    myfile1 = ABopenfile("testfile1.txt",True)
+    myfile1.writeat('StestAE', 0)
+    myfile1.close()
+
+def write2():
+    myfile2 = ABopenfile("testfile2.txt",True)
+    myfile2.writeat('StestBE', 0)
+    myfile2.close()
+
+def write3():
+    myfile3 = ABopenfile("testfile3.txt",True)
+    myfile3.writeat('StestCE', 0)
+    myfile3.close()
+
+def write4():
+    myfile4 = ABopenfile("testfile4.txt",True)
+    myfile4.writeat('StestDE', 0)
+    myfile4.close()
+
+createthread(write1)
+createthread(write2)
+createthread(write3)
+createthread(write4)
+createthread(write1)
+createthread(write2)
+createthread(write3)
+createthread(write4)
+createthread(write1)
+createthread(write2)
+createthread(write3)
+createthread(write4)
